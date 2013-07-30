@@ -1,0 +1,9 @@
+{
+    "res": {
+        "theme.styl": {
+            "uri": "/theme.css",
+            "type": "css"
+        }
+    },
+    "pkg": {}
+}

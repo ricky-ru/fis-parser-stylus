@@ -8,9 +8,10 @@
 var stylus = require('stylus');
 
 module.exports = function(content, file, conf){
-  stylus.render(function(err, css){
+  var fn;
+  stylus.render(content, function(err, css){
     if (err) throw err;
-    consoloe.log(css);
-    return css;
+    fn = css;
   });
+  return fn;
 };

@@ -13,12 +13,12 @@ A parser plugin for fis to compile stylus file.
 fis.config.merge({
   modules:{
     parser:{
-      stylus: 'stylus'
+      styl: 'stylus'
     }
   },
   roadmap:{
     ext:{
-      stylus: 'css'
+      styl: 'css'
     }
   }
 });

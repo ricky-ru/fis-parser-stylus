@@ -1,12 +1,18 @@
 fis.config.merge({
+    project: {
+      charset : 'utf-8',
+      fileType : {
+        text : 'styl'
+      }
+    },
     modules : {
       parser : {
-        stylus : 'stylus'
+        styl : 'stylus'
       }
     },
     roadmap : {
       ext : {
-        stylus : 'css'
+        styl : 'css'
       }
     }
 });
