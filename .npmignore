@@ -1,0 +1,6 @@
+.git*
+examples/
+test/
+testing.js
+.DS_Store
+lib-cov
